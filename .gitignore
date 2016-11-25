@@ -1,0 +1,9 @@
+# IDE.
+.idea/
+*.iml
+
+# CI.
+**/build/
+.gradle/
+gradle.properties
+local.properties

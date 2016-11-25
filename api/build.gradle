@@ -1,0 +1,17 @@
+apply plugin: 'com.android.library'
+
+android {
+  compileSdkVersion 25
+  buildToolsVersion "25.0.1"
+
+  defaultConfig {
+    versionCode 1
+    versionName "1.2.2"
+
+    minSdkVersion 17
+  }
+}
+
+dependencies {
+  compile fileTree(dir: 'libs', include: ['*.jar'])
+}
