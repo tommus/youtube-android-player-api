@@ -26,7 +26,7 @@ Add to the end of repositories:
 Add dependency:
 
     dependencies {
-        compile 'com.github.tommus:youtube-android-player-api:1.2.2'
+        compile 'com.github.tommus:youtube-android-player-api:1.2.1'
     }
 
 ## Library website
