@@ -29,6 +29,12 @@ Add dependency:
         compile 'com.github.tommus:youtube-android-player-api:1.2.2'
     }
 
+Or for older version:
+
+    dependencies {
+        compile 'com.github.tommus:youtube-android-player-api:1.2.1'
+    }
+
 ## Library website
 
 Read more about the library at Google Developers website [here](https://developers.google.com/youtube/android/player/).
