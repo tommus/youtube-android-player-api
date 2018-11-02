@@ -1,20 +1,32 @@
+//region Build Script
+
 buildscript {
   repositories {
-    jcenter()
-    maven { url "https://maven.google.com" }
+    apply from: "versions.gradle"
+    addRepos(repositories)
   }
 
   dependencies {
-    classpath "com.android.tools.build:gradle:3.0.0-alpha1"
+    classpath deps.build.android_gradle_plugin
   }
 }
 
+//endregion
+
+//region All Projects
+
 allprojects {
   repositories {
-    jcenter()
+    addRepos(repositories)
   }
 }
+
+//endregion
+
+//region Tasks
 
 task clean(type: Delete) {
   delete rootProject.buildDir
 }
+
+//endregion
